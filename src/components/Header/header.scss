@@ -69,42 +69,18 @@
       justify-content: space-between;
       padding: 10px 30px;
 
-      li {
+      a {
         display: flex;
         flex-direction: column;
         align-items: center;
-      }
-
-      li::before {
-        display: block;
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: center;
-        content: '';
-      }
-
-      li:nth-child(1)::before {
-        background-image: url('../../assets/images/home.png');
-      }
-
-      li:nth-child(2)::before {
-        background-image: url('../../assets/images/about.png');
-      }
-
-      li:nth-child(3)::before {
-        background-image: url('../../assets/images/service.png');
-      }
-
-      li:nth-child(4)::before {
-        background-image: url('../../assets/images/blog.png');
-      }
-
-      a {
         font-size: 14px;
         font-weight: 500;
         color: #1f1f1f;
+        
+        img {
+          width: 20px;
+          height: 20px;
+        }
       }
     }
   }

@@ -8,8 +8,8 @@ const About = () => {
       <div className="container">
         <div className="about__inner">
           <div className="about__cards">
-            {aboutCardData.map((item) => (
-              <AboutCard obj={item} />
+            {aboutCardData.map((item, index) => (
+              <AboutCard obj={item} key={index} />
             ))}
           </div>
           <div className="about__content">
