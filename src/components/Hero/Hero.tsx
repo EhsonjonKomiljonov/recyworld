@@ -2,7 +2,7 @@ import './hero.scss';
 
 const Hero = () => {
   return (
-    <section className="hero" id="#">
+    <section className="hero">
       <div className="container">
         <div className="hero__inner">
           <div className="hero__content">

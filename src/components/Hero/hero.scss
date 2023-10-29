@@ -2,9 +2,9 @@
   padding: 120px 0 0;
   background-image: url('../../assets/images/ellipse.png'),
     url('../../assets/images/hero-img.png');
-  background-size: 300px, auto;
+  background-size: 300px, 564px 855px;
   background-repeat: no-repeat;
-  background-position: left -100px top -30px, right 40px top 60px;
+  background-position: left -100px top -30px, right 40px top 120px;
 
   &__inner {
     display: flex;
@@ -74,6 +74,7 @@
     button:nth-child(2) {
       font-weight: 500;
       margin-left: 30px;
+      padding: 0;
 
       &::before {
         display: block;
@@ -83,7 +84,7 @@
         background-image: url('../../assets/images/play-video.svg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        background-size: 45px;
         content: '';
       }
     }
