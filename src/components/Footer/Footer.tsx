@@ -3,7 +3,7 @@ import './footer.scss';
 import Twitter from '../../assets/images/twitter.svg';
 import Insta from '../../assets/images/instagram.svg';
 import YouTube from '../../assets/images/youtube.svg';
-import Facebook from '../../assets/images/Facebook.svg';
+import Facebook from '../../assets/images/facebook.svg';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
