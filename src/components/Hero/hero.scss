@@ -42,7 +42,7 @@
     align-items: center;
     font-family: 'Fredoka';
 
-    button {
+    button:nth-child(2) {
       font-family: 'Fredoka';
       display: flex;
       align-items: center;
@@ -51,27 +51,6 @@
       background-color: transparent;
       font-size: 17px;
       cursor: pointer;
-    }
-
-    button:nth-child(1) {
-      background-color: #399947;
-      padding: 18px 25px;
-      color: #fff;
-      border-radius: 30px;
-
-      &::after {
-        display: block;
-        width: 20px;
-        height: 20px;
-        margin-left: 10px;
-        background-image: url('../../assets/images/arrow-right.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        content: '';
-      }
-    }
-
-    button:nth-child(2) {
       font-weight: 500;
       margin-left: 30px;
       padding: 0;

@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Service from './components/Service/Service';
 import Blog from './components/Blog/Blog';
 import './assets/styles/main.css';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Service />
       <Blog />
+      <Contact />
     </>
   );
 }

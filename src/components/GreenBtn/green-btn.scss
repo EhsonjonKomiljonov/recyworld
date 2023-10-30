@@ -1,0 +1,25 @@
+.green-btn {
+  font-family: 'Fredoka';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  background-color: #399947;
+  padding: 18px 25px;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+
+  &::after {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url('../../assets/images/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+  }
+}

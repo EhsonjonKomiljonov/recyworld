@@ -1,3 +1,4 @@
+import GreenBtn from '../GreenBtn/GreenBtn';
 import './hero.scss';
 
 const Hero = () => {
@@ -9,15 +10,17 @@ const Hero = () => {
             <h1 className="hero__title">
               Smarter Solutions for a Cleaner <span>World</span>
             </h1>
-            <p className='hero__desc'>
+            <p className="hero__desc">
               Li Europan lingues es membres del sam familie. Lor separat
-              existentic es un myth. Por scientie, musica, sport etc. Litot Europa use li sam vacabular. Li lingues differe solmen in li grammatica. Li pronunciation e
+              existentic es un myth. Por scientie, musica, sport etc. Litot
+              Europa use li sam vacabular. Li lingues differe solmen in li
+              grammatica. Li pronunciation e
             </p>
-            <div className='hero__content__btns'>
-              <button>Learn More</button>
+            <div className="hero__content__btns">
+              <GreenBtn text='Learn More' />
               <button>Watch Our Video</button>
             </div>
-            <p className='hero__text'>Save Earth</p>
+            <p className="hero__text">Save Earth</p>
           </div>
         </div>
       </div>

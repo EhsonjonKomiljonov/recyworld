@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 
 const Service = () => {
   return (
-    <section className="service">
+    <section className="service" id='service'>
       <div className="container">
         <div className="service__inner">
           <div className="service__content">

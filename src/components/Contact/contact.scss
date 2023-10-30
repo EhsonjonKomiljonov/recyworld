@@ -1,0 +1,118 @@
+.contact {
+  padding: 90px 0;
+  background-image: url('../../assets/images/contact-bg.png'),
+    url('../../assets/images/about-ellipse.png'),
+    url('../../assets/images/ellipse.png');
+  background-repeat: no-repeat;
+  background-position: left bottom, right 650px bottom 40px,
+    right -200px top 20px;
+  background-size: contain, 70px, 500px;
+  background-color: #fafafa;
+
+  &__inner {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+
+    h2 {
+      margin: 40px 0;
+      font-size: 70px;
+      line-height: 75px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contact {
+    &__inner {
+      max-width: 630px;
+      margin-right: 100px;
+    }
+
+    h2 {
+      font-size: 55px;
+      line-height: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .contact {
+    background-position: left bottom, right 400px bottom 40px,
+      right -200px top 20px;
+
+    &__inner {
+      max-width: 630px;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .contact {
+    background-position: left bottom, right 250px bottom 40px,
+      right -200px top 20px;
+    background-size: contain, 70px, 350px;
+
+    &__inner {
+      max-width: 500px;
+      margin-right: 0;
+
+      h2 {
+        font-size: 40px;
+        line-height: 45px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    &__inner {
+      max-width: 350px;
+      margin-right: 0;
+
+      h2 {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .contact {
+    padding: 90px 0 140px;
+    background-image: url('../../assets/images/about-ellipse.png'),
+      url('../../assets/images/ellipse.png');
+    background-repeat: no-repeat;
+    background-position: left 50px bottom 90px,
+      right -100px top 20px;
+    background-size: 70px, 300px;
+
+    &__inner {
+      max-width: 450px;
+      margin: 0 auto;
+      text-align: center;
+
+      button {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .contact {
+    h2 {
+      margin: 0 0 15px;
+      font-size: 23px;
+      line-height: 30px;
+    }
+
+    button {
+      font-size: 15px;
+    }
+  }
+}
