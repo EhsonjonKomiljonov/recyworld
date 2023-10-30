@@ -2,7 +2,7 @@ import BlogCard from '../BlogCard/BlogCard';
 import { blogCardData } from '../../../db/blogCardData';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import './blog-slider.scss';
 
@@ -13,11 +13,15 @@ const BlogSlider = () => {
         freeMode={true}
         loop={true}
         spaceBetween={0}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         slidesPerView={1}
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         breakpoints={{
           768: {
             slidesPerView: 2,
