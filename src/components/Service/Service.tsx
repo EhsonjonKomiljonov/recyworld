@@ -32,7 +32,7 @@ const Service = () => {
               height="20%"
             />
             <motion.img
-              initial={{ x: -800 }}
+              initial={{ x: -250 }}
               whileInView={{
                 x: 0,
                 transition: { duration: 2, },
