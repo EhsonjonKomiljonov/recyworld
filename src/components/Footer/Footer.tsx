@@ -4,6 +4,7 @@ import Twitter from '../../assets/images/twitter.svg';
 import Insta from '../../assets/images/instagram.svg';
 import YouTube from '../../assets/images/youtube.svg';
 import Facebook from '../../assets/images/Facebook.svg';
+import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
@@ -13,17 +14,35 @@ const Footer = () => {
           <h2>Recyworld</h2>
           <Nav />
           <ul className="site-footer__socials">
-            <li>
+            <motion.li
+              initial={{ scale: 1 }}
+              whileInView={{
+                scale: [1, 1.3, 1],
+                transition: { duration: 0.5, delay: 0 },
+              }}
+            >
               <a href="https://twitter.com">
                 <img src={Twitter} alt="Twitter icon" width={25} height={25} />
               </a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              initial={{ scale: 1 }}
+              whileInView={{
+                scale: [1, 1.3, 1],
+                transition: { duration: 0.5, delay: 0.25 },
+              }}
+            >
               <a href="https://instagram.com">
                 <img src={Insta} alt="Instagram icon" width={25} height={25} />
               </a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              initial={{ scale: 1 }}
+              whileInView={{
+                scale: [1, 1.3, 1],
+                transition: { duration: 0.5, delay: 0.5 },
+              }}
+            >
               <a href="https://facebook.com">
                 <img
                   src={Facebook}
@@ -32,12 +51,18 @@ const Footer = () => {
                   height={25}
                 />
               </a>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li
+              initial={{ scale: 1 }}
+              whileInView={{
+                scale: [1, 1.3, 1],
+                transition: { duration: 0.5, delay: 0.75 },
+              }}
+            >
               <a href="https://youtube.com">
                 <img src={YouTube} alt="YouTube icon" width={25} height={25} />
               </a>
-            </li>
+            </motion.li>
           </ul>
         </div>
       </div>

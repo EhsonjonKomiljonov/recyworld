@@ -4,10 +4,11 @@ import { serviceCardData } from '../../../db/serviceCardData';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './service.scss';
 import Title from '../Title/Title';
+import { motion } from 'framer-motion';
 
 const Service = () => {
   return (
-    <section className="service" id='service'>
+    <section className="service" id="service">
       <div className="container">
         <div className="service__inner">
           <div className="service__content">
@@ -19,24 +20,38 @@ const Service = () => {
             </p>
           </div>
           <div className="service__images">
-            <img
+            <motion.img
+              initial={{ x: -200 }}
+              whileInView={{
+                x: 0,
+                transition: { duration: 1 },
+              }}
               src={ServiceImg1}
               alt="Smarter Solutions for a Cleaner World"
               width="49%"
               height="20%"
             />
-            <img
+            <motion.img
+              initial={{ x: -800 }}
+              whileInView={{
+                x: 0,
+                transition: { duration: 2, },
+              }}
               src={ServiceImg2}
               alt="Smarter Solutions for a Cleaner World"
-              width="49%"
-              height="20%"
+              width="48.4%"
+              height="14%"
             />
           </div>
-          <div className="service__cards">
-            {serviceCardData.map((item) => (
-              <ServiceCard obj={item} />
+          <motion.div
+            className="service__cards"
+            initial={{ opacity: 0, y: -200 }}
+            whileInView={{ opacity: 1, y: 0, transition: { duration: 1 } }}
+          >
+            {serviceCardData.map((item, index) => (
+              <ServiceCard key={index} obj={item} />
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

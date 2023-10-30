@@ -4,6 +4,7 @@ import About from '../../assets/images/about.png';
 import Service from '../../assets/images/service.png';
 import Blog from '../../assets/images/blog.png';
 import Nav from '../Nav/Nav';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   return (
@@ -11,9 +12,18 @@ const Header = () => {
       <header className="site-header">
         <div className="container">
           <div className="site-header__inner">
-            <a className="logo" href="#">
+            <motion.a
+              initial={{ scale: 1, rotateX: 0 }}
+              animate={{
+                scale: [1, 1.2, 1],
+                rotateX: [0, 180, 0],
+                transition: { duration: 1, delay: 1 },
+              }}
+              className="logo"
+              href="#"
+            >
               Recyworld
-            </a>
+            </motion.a>
             <Nav />
           </div>
         </div>
