@@ -17,21 +17,6 @@
     width: 100%;
     max-width: 470px;
 
-    h2 {
-      margin: 0 0 30px;
-      font-size: 55px;
-      font-weight: 500;
-      line-height: 66px;
-
-      span {
-        display: inline-block;
-        padding: 0 5px;
-        border-radius: 7px;
-        color: #fff;
-        background-color: #399947;
-      }
-    }
-
     p {
       color: #484848;
     }
@@ -76,12 +61,6 @@
 @media screen and (max-width: 1175px) {
   .about__content {
     max-width: 350px;
-
-    h2 {
-      font-size: 45px;
-      line-height: 55px;
-      margin-bottom: 20px;
-    }
   }
 }
 
@@ -119,12 +98,6 @@
       max-width: 500px;
       margin-bottom: 50px;
       text-align: center;
-
-      h2 {
-        margin: 0 0 20px;
-        font-size: 55px;
-        line-height: 66px;
-      }
 
       p {
         color: #484848;
@@ -166,10 +139,6 @@
 
 @media screen and (max-width: 510px) {
   .about__content {
-    h2 {
-      font-size: 40px;
-      line-height: 50px;
-    }
 
     p {
       font-size: 15px;
