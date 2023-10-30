@@ -57,7 +57,7 @@ const Footer = () => {
               whileInView={{
                 scale: [1, 1.3, 1],
                 transition: { duration: 0.5, delay: 0.75 },
-              }}
+              }} 
             >
               <a href="https://youtube.com">
                 <img src={YouTube} alt="YouTube icon" width={25} height={25} />
