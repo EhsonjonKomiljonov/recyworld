@@ -5,6 +5,7 @@ import Service from './components/Service/Service';
 import Blog from './components/Blog/Blog';
 import './assets/styles/main.css';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Blog />
       <Contact />
+      <Footer />
     </>
   );
 }

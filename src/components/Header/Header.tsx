@@ -3,6 +3,7 @@ import Home from '../../assets/images/home.png';
 import About from '../../assets/images/about.png';
 import Service from '../../assets/images/service.png';
 import Blog from '../../assets/images/blog.png';
+import Nav from '../Nav/Nav';
 
 const Header = () => {
   return (
@@ -13,27 +14,7 @@ const Header = () => {
             <a className="logo" href="#">
               Recyworld
             </a>
-            <nav className="nav">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About Us</a>
-                </li>
-                <li>
-                  <a href="#service">Service</a>
-                </li>
-                <li>
-                  <a href="#blog">Blog</a>
-                </li>
-                <li>
-                  <a href="#contact">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <Nav />
           </div>
         </div>
       </header>

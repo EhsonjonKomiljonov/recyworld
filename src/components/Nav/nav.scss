@@ -1,0 +1,21 @@
+.nav {
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  li + li {
+    margin-left: 35px;
+  }
+
+  a {
+    font-weight: 500;
+    color: #1f1f1f;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #399947;
+      transition: all 0.3s ease;
+    }
+  }
+}

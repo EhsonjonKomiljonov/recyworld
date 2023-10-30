@@ -20,28 +20,6 @@
   color: #399947;
 }
 
-.nav {
-  ul {
-    display: flex;
-    align-items: center;
-  }
-
-  li + li {
-    margin-left: 35px;
-  }
-
-  a {
-    font-weight: 500;
-    color: #1f1f1f;
-    transition: all 0.3s ease;
-
-    &:hover {
-      color: #399947;
-      transition: all 0.3s ease;
-    }
-  }
-}
-
 .mobile-nav {
   display: none;
 }
@@ -76,7 +54,7 @@
         font-size: 14px;
         font-weight: 500;
         color: #1f1f1f;
-        
+
         img {
           width: 20px;
           height: 20px;

@@ -34,15 +34,8 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   margin: 0;
   font-family: 'Fredoka';
-}
-
-#root {
-  height: 100%;
 }
 
 main {
@@ -74,4 +67,10 @@ p {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    padding-bottom: 57px;
+  }
 }
