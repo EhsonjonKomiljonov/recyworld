@@ -69,8 +69,27 @@ p {
   padding: 0 20px;
 }
 
+.loader {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.loader h1 {
+  font-size: calc(10vw - 20px);
+  color: #399947;
+}
+
 @media screen and (max-width: 660px) {
   body {
     padding-bottom: 57px;
+  }
+}
+
+
+@media screen and (max-width: 445px) {
+  .loader h1 {
+    font-size: calc(10vw - 10px);
+    color: #399947;
   }
 }
