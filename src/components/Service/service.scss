@@ -1,22 +1,23 @@
 .service {
   padding: 80px 0;
-  background-image: url('../../assets/images/service-bg-line.png');
+  background-image: url('../../assets/images/service-bg-line.png'),
+    url('../../assets/images/ellipse.png');
   background-repeat: no-repeat;
-  background-position: center bottom 170px;
-  background-size: contain;
+  background-position: center bottom 170px, right -350px top 20px;
+  background-size: contain, 550px;
 
   &__content {
     width: 100%;
     max-width: 740px;
-    margin: 150px auto 70px;
+    margin: 0 auto 70px;
     text-align: center;
- 
+
     h2 {
       font-size: 70px;
       font-weight: 500;
       margin-top: 0;
       margin-bottom: 20px;
-  
+
       span {
         display: inline-block;
         padding: 0 10px;
@@ -25,7 +26,7 @@
         background-color: #399947;
       }
     }
-  
+
     p {
       color: #484848;
       margin-bottom: 60px;
@@ -54,8 +55,8 @@
 
 @media screen and (max-width: 665px) {
   .service {
-    background-size: 100% 150px;
-    background-position: center bottom 400px;
+    background-size: 100% 150px, 550px;
+    background-position: center bottom 400px, right -350px top 20px;
 
     h2 {
       font-size: 50px;
