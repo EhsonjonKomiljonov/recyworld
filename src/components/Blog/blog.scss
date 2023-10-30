@@ -15,6 +15,13 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .blog {
+    background-position: bottom 50px left calc(50% - 600px),
+      top 20px right calc(50% - 600px);
+  }
+}
+
 @media screen and (max-width: 900px) {
   .blog__content {
     margin: 0 auto;

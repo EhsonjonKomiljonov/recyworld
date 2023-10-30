@@ -23,6 +23,13 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .contact {
+    background-position: left calc(50% - 400px) bottom,
+      right calc(50% - 100px) bottom 40px, right calc(50% - 700px) top 20px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .contact {
     &__inner {
@@ -87,8 +94,7 @@
     background-image: url('../../assets/images/about-ellipse.png'),
       url('../../assets/images/ellipse.png');
     background-repeat: no-repeat;
-    background-position: left 50px bottom 90px,
-      right -100px top 20px;
+    background-position: left 50px bottom 90px, right -100px top 20px;
     background-size: 70px, 300px;
 
     &__inner {

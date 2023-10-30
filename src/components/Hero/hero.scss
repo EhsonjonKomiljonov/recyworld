@@ -91,6 +91,12 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .hero {
+    background-position: left calc(50% - 650px) top -30px, right calc(50% - 400px) top 120px;
+  }
+}
+
 @media screen and (max-width: 1085px) {
   .hero {
     padding: 80px 0 0;

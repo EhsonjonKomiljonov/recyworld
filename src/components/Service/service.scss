@@ -38,6 +38,13 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .service {
+    background-position: center bottom 170px, right calc(50% - 700px) top 20px;
+    background-size: 100% 332px, 550px;
+  }
+}
+
 @media screen and (max-width: 665px) {
   .service {
     background-size: 100% 150px, 550px;
